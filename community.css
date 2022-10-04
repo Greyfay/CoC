@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+    border-bottom: solid;
+    background-color: #EDF5E1;
+}
+
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

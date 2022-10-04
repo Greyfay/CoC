@@ -1,0 +1,73 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+    border-bottom: solid;
+    background-color: #EDF5E1;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+fieldset {
+    background-color: #EDF5E1;
+    position: relative;
+    top: 3em;
+}
+
+div {
+    padding: .4em;
+}
+
+legend {
+    border: solid;
+    position: relative;
+    bottom: 1.4em;
+    background-color: #EDF5E1;
+    margin-right: 98em;
+}
+
+#Name {
+    position: relative;
+    left: 10em;
+}
+
+#body-count {
+    position: relative;
+    left: 1.71em;
+}
+
+.name {
+    position: relative;
+    bottom: 1.1em;
+}
+
+#rights-label {
+    display: inline-block;
+    width: 300px;
+    padding-top: 1.5em;
+}
+
+.checkbox {
+    position: relative;
+    left: 17.2em;
+    bottom: 2.4em;
+}
+
+.text {
+    position: relative;
+    bottom: 2em;
+}
+
+#comments {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    left: 12.2em;
+}
+
+#submit {
+    position: relative;
+    left: 17.3em;
+}
