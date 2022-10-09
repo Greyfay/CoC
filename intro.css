@@ -1,14 +1,9 @@
-html {
-    max-width: 800px;
-}
 .navigation {
     display: grid;
     grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(50px, 60px);
-    margin-right: -4.1em;
+    margin-right: -8%;
     border-bottom: solid;
-    margin-top: -.5em;
-    background-color: #EDF5E1;
     align-items: center;
 }
 
@@ -21,8 +16,6 @@ html {
     display: grid;
     grid-template-rows: 1fr 2fr;
     justify-items: center;
-    position: relative;
-    bottom: 390px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%;
@@ -30,6 +23,8 @@ html {
     margin-bottom: -24em;;
     margin-left: 10em;
     margin-right: 10em;
+    position: relative;
+    bottom: 40vw;
 }
 
 #big-text {
@@ -47,7 +42,42 @@ html {
 .bulk {
     display: grid;
     padding-top: 40px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 60px;
+    align-items: center;
+    justify-items: center;
+}
+
+#tucker {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+#hemsworth {
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+}
+
+#evans {
+
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+}
+
+.par1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    justify-items: center;
+    font-size: larger;
+}
+
+.par2 {
+    justify-items: center;
+    font-size: larger;
+}
+
+.par3 {
 }

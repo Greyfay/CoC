@@ -1,19 +1,50 @@
 .navigation {
-    display: flex;
-    justify-content: space-around;
-    border-top: solid;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(50px, 60px);
+    margin-right: -8%;
     border-bottom: solid;
-    background-color: #EDF5E1;
+    align-items: center;
 }
 
-* {
+#title {
+    font-size: 160%;
+    align-content: center;
+}
+
+#recruitment {
+    position: relative;
+    bottom: 9vw;
+    left: 1vw;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+}
+
+img {
+    width: 1440px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: -100px;
+}
+
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1440px;
+    margin: 20px auto;
 }
 
-fieldset {
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.form {
     background-color: #EDF5E1;
     position: relative;
     top: 3em;
+    max-width: 1000px;
 }
 
 div {
